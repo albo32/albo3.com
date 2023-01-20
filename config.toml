@@ -1,0 +1,4 @@
+baseURL = 'http://albo3.com/'
+languageCode = 'en-us'
+title = 'albo3.com'
+theme = 'ananke'
