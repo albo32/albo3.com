@@ -1,6 +1,7 @@
 ---
 title: "Bazinga"
 date: 2023-01-20T19:13:57Z
-draft: true
+draft: false
+
 ---
 ![sheldon](/static/bazinga.png)
