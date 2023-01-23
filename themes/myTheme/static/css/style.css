@@ -6,6 +6,7 @@ h1 {
   font-family: "ubuntu mono";
   font-size: 28px;
   font: bold;
+  display: inline;
 }
 j1 {
   color: limegreen;
@@ -14,7 +15,12 @@ j1 {
   font: bold;
   display: inline-block;
 }
-
+k1 {
+  color: limegreen;
+  font-family: "ubuntu mono";
+  font-size: 28px;
+  font: bold;
+}
 p {
   color: limegreen;
   font-family: "ubuntu mono";
