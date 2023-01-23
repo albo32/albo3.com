@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: limegreen;
+  font-family: "ubuntu mono";
+  font-size: 28px;
+  font: bold;
+}
+p {
+  color: limegreen;
+  font-family: "ubuntu mono";
+  font-size: 28px;
+}
+a:link {
+  color: limegreen;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "ubuntu mono";
+}
+
+a:visited {
+  color: limegreen;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "ubuntu mono";
+}
+
+a:hover {
+  color: black;
+  background-color: limegreen;
+  font-family: "ubuntu mono";
+}

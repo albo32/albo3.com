@@ -1,5 +1,5 @@
 ---
-title: "Bazinga"
+title: "bazinga"
 date: 2023-01-20T19:13:57Z
 draft: false
 

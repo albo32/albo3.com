@@ -1,5 +1,10 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1>
+<a href="/"> /albo3/home/</a>
+<br>/albo3/posts/{{.Title}}
+<br><a href="/posts/"> << go back </a>
+</h1>
+
 {{ partial "metadata.html" . }}
 <br><br>
 {{ .Content }}
