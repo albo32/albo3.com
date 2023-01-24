@@ -1,16 +1,52 @@
-{{ define "main" }}
-<div id="home-jumbotron">
-<h1>
-<a href="/"> > /albo3/</a>
-<br><a href="/posts/"> /albo3/posts/<br><br></a>
-<!--<br><a href="/tags/"> /albo3/tags/</a>-->
-</h1>
-
-<h1>{{"albo3@linux-pc"}}</h1><j1>{{":~$ welcome to albo3.com :)"}}
-</j1>
-<cursor>{{"_"}}</cursor>
-</div>
-{{ end }}
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta http-equiv="content-type" 
+        content="text/html; charset=UTF-8">
+  
+    <meta name="viewport" content="width=device-width,
+        minimum-scale=1,initial-scale=1">
+  
+    <script src=
+        "https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+  
+    <script src=
+"https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js">
+    </script>
+  
+    <link rel="stylesheet" href=
+"https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
+  
+    <style type="text/css">
+        .terminal,
+        span,
+        .cmd,
+        div {
+            --color: rgba(0, 255, 0, 1);
+        }
+  
+        .terminal,
+        span {
+            --size: 1.4;
+        }
+    </style>
+</head>
+  
+<body>
+    <script>
+    	$('body').terminal({
+            whoami: function () {
+                this.echo("Hi, my name is Burim! Online, I use the name albo3. I'm a hobbyist musician and programmer.");
+            },
+            help: function () {
+                this.echo('whoami	--	learn about me!\nposts	--	see my posts');
+            },
+        }, {
+            greetings: 'Welcome to albo3.com! :)\n--------------------------\nEnter "help" to get started.'
+        });
+    </script>
+</body>
+  
+</html>
