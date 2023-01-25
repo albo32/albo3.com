@@ -18,7 +18,12 @@
   
     <link rel="stylesheet" href=
 "https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
-  
+   
+	<script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
     <style type="text/css">
         .terminal,
         span,
@@ -37,6 +42,9 @@
 <body>
     <script>
     	$('body').terminal({
+            posts: function () {
+                this.load("posts");
+            },
             whoami: function () {
                 this.echo("Hi, my name is Burim! Online, I use the name albo3. I'm a hobbyist musician and programmer.");
             },
@@ -48,7 +56,7 @@
 		this.echo('[[@;;;;https://pbs.twimg.com/profile_images/847178952556843014/kAdhNx7L_400x400.jpg]]');
 	    }
         }, {
-            greetings: 'Welcome to albo3.com! :)\n--------------------------\nEnter "help" to get started.'
+            greetings: 'Welcome to albo3.com! :)\n--------------------------\nEnter [[b;;]help] to get started.'
         });
     </script>
 </body>

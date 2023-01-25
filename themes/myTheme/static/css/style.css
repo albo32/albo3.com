@@ -4,20 +4,19 @@ body {
 h1 {
   color: limegreen;
   font-family: "ubuntu mono";
-  font-size: 28px;
-  font: bold;
+  font-size: 25px;
   display: inline;
 }
 j1 {
   color: limegreen;
   font-family: "ubuntu mono";
-  font-size: 28px;W
+  font-size: 25px;
   display: inline-block;
 }
 p {
   color: limegreen;
   font-family: "ubuntu mono";
-  font-size: 28px;
+  font-size: 25px;
 }
 a:link {
   color: limegreen;
@@ -49,7 +48,7 @@ a:hover {
 }
 cursor {
   font-family: "ubuntu mono";
-  font-size: 28px;
+  font-size: 25px;
   animation-name: blink2;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -58,20 +57,4 @@ cursor {
   text-decoration-line: underline;
   text-decoration-weight: 20px;
   animation-direction: alternate;
-}
-textarea {
-  width: 100%;
-  height: 27px;
-  padding: 0px, 15px;
-  box-sizing: border-box;
-  border: black;
-  border-radius: 0x;
-  background-color: transparent;
-  font-size: 23px;
-  color: limegreen;
-  resize: none;
-  outline: none;
-}
-form {
-  display: inline-block;
 }
