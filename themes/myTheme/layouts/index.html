@@ -38,12 +38,11 @@
         }
     </style>
 </head>
-  
 <body>
     <script>
     	$('body').terminal({
             posts: function () {
-                this.load("posts");
+                this.echo($('<iframe src="posts" width="100%" height="300" style="border: 5px;" seamless="true"><iframe>'));
             },
             whoami: function () {
                 this.echo("Hi, my name is Burim! Online, I use the name albo3. I'm a hobbyist musician and programmer.");

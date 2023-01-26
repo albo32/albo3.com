@@ -58,3 +58,7 @@ cursor {
   text-decoration-weight: 20px;
   animation-direction: alternate;
 }
+iframe {
+  height: 300px;
+  width: 1000px;
+}
